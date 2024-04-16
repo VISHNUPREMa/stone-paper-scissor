@@ -1,0 +1,32 @@
+#gameDiv{
+    font-family: 'Brush Script MT',cursive;
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: lightcyan;
+    text-align: center;
+    
+}
+
+#playerText{
+    color: blue;
+}
+
+#computerText{
+    color: crimson;
+}
+
+.choiceBtn{
+    font-size: xx-large;
+    border-radius: 10px;
+    background-color: black;
+    color:lightcyan;
+}
+
+/* Targeting all images inside the gameDiv */
+#gameDiv img {
+    width: 75px; /* Adjust the width as needed */
+    height: 75px; /* Adjust the height as needed */
+    /* Additional styling if required */
+    margin: 10px; /* Example margin for spacing between images */
+}
